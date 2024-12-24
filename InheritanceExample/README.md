@@ -1,4 +1,4 @@
-# Mô tả bài tóán
+# Mô tả bài toán
 
 Xây dựng hệ thống quản lý phương tiện giao thông, trong đó:
 * Lớp cha là ```Vehicle```.
