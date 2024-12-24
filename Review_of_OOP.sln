@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectCollaborationExample"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClassExample", "StaticClassExample\StaticClassExample.csproj", "{D6C0F434-8EEA-40B8-917A-AE294813410C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectLifecycleExample", "ObjectLifecycleExample\ObjectLifecycleExample.csproj", "{FE475749-17D1-4438-8585-B1FF49F5106C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{D6C0F434-8EEA-40B8-917A-AE294813410C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C0F434-8EEA-40B8-917A-AE294813410C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C0F434-8EEA-40B8-917A-AE294813410C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE475749-17D1-4438-8585-B1FF49F5106C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE475749-17D1-4438-8585-B1FF49F5106C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE475749-17D1-4438-8585-B1FF49F5106C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE475749-17D1-4438-8585-B1FF49F5106C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
