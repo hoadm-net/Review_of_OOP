@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectLifecycleExample", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericExample", "GenericExample\GenericExample.csproj", "{966F9D0E-0955-478A-92B4-7FE1E7EE0B8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDelegateExample", "EventDelegateExample\EventDelegateExample.csproj", "{8ED8ED15-3A6F-4E3B-B47B-6D9364F289BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{966F9D0E-0955-478A-92B4-7FE1E7EE0B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{966F9D0E-0955-478A-92B4-7FE1E7EE0B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{966F9D0E-0955-478A-92B4-7FE1E7EE0B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED8ED15-3A6F-4E3B-B47B-6D9364F289BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED8ED15-3A6F-4E3B-B47B-6D9364F289BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED8ED15-3A6F-4E3B-B47B-6D9364F289BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED8ED15-3A6F-4E3B-B47B-6D9364F289BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
