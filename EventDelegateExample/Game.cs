@@ -17,6 +17,21 @@ public class Game
         Food = new Food(width, height);
         GameOver = false;
         Score = 0;
+        
+        Snake.OnEatFood += HandleEatFood;
+        Snake.OnEatFood += HandleEatFoodSound;
+    }
+
+    private void HandleEatFood(object? sender, EventArgs e)
+    {
+        Score++;
+        Snake.Grow();
+        Food.Generate(Snake.Body);
+    }
+
+    private void HandleEatFoodSound(object? sender, EventArgs e)
+    {
+        Console.Beep();
     }
 
     public void Start()
@@ -64,9 +79,7 @@ public class Game
 
         if (Snake.Head.Equals(Food.Position))
         {
-            Score++;
-            Snake.Grow();
-            Food.Generate(Snake.Body);
+            Snake.TriggerEatFood();
         }
     }
 }

@@ -6,6 +6,8 @@ public class Snake
     private string Direction { get; set; }
 
     public (int x, int y) Head => Body.First();
+    
+    public event EventHandler OnEatFood;
 
     public Snake(int startX, int startY)
     {
@@ -65,5 +67,10 @@ public class Snake
         return Head.x <= 0 || Head.x >= width - 1 ||
                Head.y <= 0 || Head.y >= height - 1 ||
                Body.Skip(1).Contains(Head);
+    }
+    
+    public void TriggerEatFood()
+    {
+        OnEatFood?.Invoke(this, EventArgs.Empty);
     }
 }
